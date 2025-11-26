@@ -9,20 +9,20 @@ _Se implementan clases, relaciones, encapsulamiento, abstracción y enumeracione
 ## Principios de POO Aplicados
 ### Abstracción
 _Las entidades del videojuego fueron diseñadas como clases que representan conceptos reales del contexto del juego._
-*Se incluyeron:
-*PersonajeJugador
-*CriaturaEnemiga
-*ObjetoRecolectable
-*Nivel
+* Se incluyeron:
+* PersonajeJugador
+* CriaturaEnemiga
+* ObjetoRecolectable
+* Nivel
 
 _Cada clase define únicamente las características esenciales del concepto representado y sus acciones principales (por ejemplo, atacar, recolectar objetos, recibir daño)._
 
 ## Encapsulamiento
 _Todos los atributos se declararon privados, evitando accesos indebidos._
 _La modificación controlada se realiza mediante:_
-*Métodos get
-*Métodos set
-*Métodos públicos que representan acciones concretas
+* Métodos get
+* Métodos set
+* Métodos públicos que representan acciones concretas
 
 _Esto mantiene la integridad y consistencia del sistema._
 
@@ -31,20 +31,20 @@ _Se implementaron tres enumeraciones obligatorias:_
 
 ###TipoPersonaje
 _Incluye:_
-*Rol de combate
-*Descripción narrativa
+* Rol de combate
+* Descripción narrativa
 _Ejemplo: Mago, Guerrero, Arquero_
 
 ###TipoCriatura
 _Incluye:_
-*Nivel de amenaza
-*Comportamiento característico
+* Nivel de amenaza
+* Comportamiento característico
 _Ejemplo: Gólem, Dragón, Slime_
 
 ###RarezaObjeto
 _Incluye:_
-*Probabilidad de aparición
-*Valor dentro del juego
+* Probabilidad de aparición
+* Valor dentro del juego
 _Ejemplo: Común, Raro, Épico, Legendario_
 
 _Cada enum contiene:_
@@ -55,9 +55,9 @@ _Cada enum contiene:_
 
 ##Relaciones Entre Clases
 _El sistema integra interacción entre entidades, simulando un videojuego real:_
-*El personaje puede atacar a criaturas enemigas.
-*El personaje puede recolectar objetos.
-*Los niveles contienen listas de enemigos y objetos.
+* El personaje puede atacar a criaturas enemigas.
+* El personaje puede recolectar objetos.
+* Los niveles contienen listas de enemigos y objetos.
 _Esto refleja cohesión entre componentes y aplicación de lógica de juego._
 
 ##Funcionamiento General del Sistema

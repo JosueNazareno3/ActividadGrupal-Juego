@@ -1,4 +1,9 @@
 # Legends of Aether
+## Integrantes
+* Karla Vanesa Chicaiza
+* Nazareno Solís Josué
+* María Belén Villca
+  
 ## Práctica de Programación Orientada a Objetos — Diseño de Componentes para un Videojuego_
 _Este proyecto implementa un modelo básico del videojuego ficticio “Legends of Aether”, aplicando los principios fundamentales de Programación Orientada a Objetos (POO). El sistema incluye personajes, criaturas enemigas, objetos recolectables y niveles, todos diseñados mediante clases, encapsulamiento y enumeraciones avanzadas._
 

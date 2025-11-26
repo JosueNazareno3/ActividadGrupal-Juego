@@ -11,7 +11,7 @@ public class Main {
         // 1. Crear personaje jugador
         // -----------------------------
         PersonajeJugador jugador = new PersonajeJugador(
-                "Zephyrion",
+                "Aether",
                 5,
                 120,
                 TipoPersonaje.MAGO
@@ -112,4 +112,5 @@ public class Main {
         System.out.println("\n--- FIN DE LA SIMULACIÓN ---");
     }
 }
+
 

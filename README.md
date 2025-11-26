@@ -62,8 +62,8 @@ _Esto refleja cohesión entre componentes y aplicación de lógica de juego._
 
 ##Funcionamiento General del Sistema
 _Al ejecutar Main.java, el sistema:_
-*Crea un personaje con un tipo definido por el enum.
-*Genera criaturas enemigas con amenazas distintas.
-*Produce objetos de varias rarezas.
-*Construye un nivel que contiene todos estos elementos.
-*Muestra información en consola y realiza acciones como ataque y recolección.
+* Crea un personaje con un tipo definido por el enum.
+* Genera criaturas enemigas con amenazas distintas.
+* Produce objetos de varias rarezas.
+* Construye un nivel que contiene todos estos elementos.
+* Muestra información en consola y realiza acciones como ataque y recolección.

@@ -11,7 +11,7 @@ public class Main {
         // 1. Crear personaje jugador
         // -----------------------------
         PersonajeJugador jugador = new PersonajeJugador(
-                "Aether",
+                "Zephyrion",
                 5,
                 120,
                 TipoPersonaje.MAGO
@@ -42,7 +42,7 @@ public class Main {
         // 3. Crear nivel
         // -----------------------------
         Nivel nivelBosque = new Nivel(
-                "Bosque Sombrío",
+                "El Bosque de los Olvidos",
                 "Una zona oscura llena de criaturas peligrosas.",
                 3
         );
@@ -112,3 +112,4 @@ public class Main {
         System.out.println("\n--- FIN DE LA SIMULACIÓN ---");
     }
 }
+

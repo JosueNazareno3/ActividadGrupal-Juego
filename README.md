@@ -7,7 +7,7 @@
 ## Práctica de Programación Orientada a Objetos — Diseño de Componentes para un Videojuego
 En esta actividad se implementa un modelo básico del videojuego ficticio “Legends of Aether”, aplicando los principios fundamentales de Programación Orientada a Objetos (POO). El sistema incluye personajes, criaturas enemigas, objetos recolectables y niveles, todos diseñados mediante clases, encapsulamiento y enumeraciones avanzadas.
 
-## Descripción del Proyecto
+## Descripción de la Práctica
 Legends of Aether es una actividad académica cuyo objetivo es modelar el núcleo de un videojuego de acción y aventura utilizando Programación Orientada a Objetos (POO).
 Se implementan clases, relaciones, encapsulamiento, abstracción y enumeraciones avanzadas para representar personajes, criaturas, objetos y niveles dentro del mundo del juego.
 

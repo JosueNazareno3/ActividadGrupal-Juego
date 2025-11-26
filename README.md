@@ -29,19 +29,19 @@ _Esto mantiene la integridad y consistencia del sistema._
 ## Enumeraciones Avanzadas (Enums)
 _Se implementaron tres enumeraciones obligatorias:_
 
-###TipoPersonaje
+### TipoPersonaje
 _Incluye:_
 * Rol de combate
 * Descripción narrativa
 _Ejemplo: Mago, Guerrero, Arquero_
 
-###TipoCriatura
+### TipoCriatura
 _Incluye:_
 * Nivel de amenaza
 * Comportamiento característico
 _Ejemplo: Gólem, Dragón, Slime_
 
-###RarezaObjeto
+### RarezaObjeto
 _Incluye:_
 * Probabilidad de aparición
 * Valor dentro del juego
@@ -53,14 +53,14 @@ _Cada enum contiene:_
 *Constructor privado
 *Descripciones detalladas
 
-##Relaciones Entre Clases
+## Relaciones Entre Clases
 _El sistema integra interacción entre entidades, simulando un videojuego real:_
 * El personaje puede atacar a criaturas enemigas.
 * El personaje puede recolectar objetos.
 * Los niveles contienen listas de enemigos y objetos.
 _Esto refleja cohesión entre componentes y aplicación de lógica de juego._
 
-##Funcionamiento General del Sistema
+## Funcionamiento General del Sistema
 _Al ejecutar Main.java, el sistema:_
 * Crea un personaje con un tipo definido por el enum.
 * Genera criaturas enemigas con amenazas distintas.
